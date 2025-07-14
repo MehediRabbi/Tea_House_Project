@@ -19,10 +19,8 @@
       crossorigin="anonymous"
     ></script>
 
-  
-
     <!-- ✅ Tailwind CDN -->
-      <script>
+    <script>
       tailwind = {
         config: {
           theme: {
@@ -36,15 +34,55 @@
       };
     </script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
   <body>
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-28 m">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- <header></header> -->
 
-        <header class="t">
-
-        </header>
-
+      <header class="flex pt-10 mb-20">
+        <div>
+          <h1 class="text-5xl md:text-7xl">
+            Its a Good Tea Time, <br />Are you Ready
+          </h1>
+          <br />
+          <p class="text-gray-500">
+            Lorem ipsum dolor sit amet consectetur <br />adipisicing elit.
+            Officiis neque illum facere? <br />Quas autem commodi ducimus hic
+            vero blanditiis laboriosam ullam vel <br />eveniet unde? Molestiae
+            distinctio laudantium recusandae dolore ipsa.
+          </p>
+          <br />
+          <button
+            class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... rounded-lg text white px-5 py-3"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right text-xl font-bold -rotate-45"></i>
+          </button>
+        </div>
+        <div>
+          <!-- image -->
+          <div class="relative">
+            <img class="w-full" src="./images/banner.png" alt="" srcset="" />
+          </div>
+          <!-- cart -->
+          <div
+            class="flex items-center bg-blue-300 px-2 py-2 md:px-10 lg:py-4 rounded-lg 
+            absolute lg:top-80 md:top-52 sm:top-35"
+          >
+            <!-- icon -->
+            <div>
+              <i class="fa-solid fa-star text-2xl text-red-600"></i>
+            </div>
+            <!-- text -->
+            <div class="text-2xl font-bold">
+              <h1>5.00</h1>
+              <p>Trust On You</p>
+            </div>
+          </div>
+        </div>
+      </header>
     </main>
   </body>
+</html>
