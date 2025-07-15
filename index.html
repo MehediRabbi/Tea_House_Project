@@ -41,7 +41,7 @@
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- <header></header> -->
 
-      <header class="flex pt-10 mb-20">
+      <header class="lg:flex pt-10 mb-20">
         <div>
           <h1 class="text-5xl md:text-7xl">
             Its a Good Tea Time, <br />Are you Ready
@@ -61,15 +61,14 @@
             <i class="fa-solid fa-arrow-right text-xl font-bold -rotate-45"></i>
           </button>
         </div>
-        <div>
+        <div class="relative">
           <!-- image -->
-          <div class="relative">
+          <div>
             <img class="w-full" src="./images/banner.png" alt="" srcset="" />
           </div>
           <!-- cart -->
           <div
-            class="flex items-center bg-blue-300 px-2 py-2 md:px-10 lg:py-4 rounded-lg 
-            absolute lg:top-80 md:top-52 sm:top-35"
+            class="flex items-center bg-blue-300 px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-52 md:top-80"
           >
             <!-- icon -->
             <div>
@@ -83,6 +82,95 @@
           </div>
         </div>
       </header>
+      <!-- feature products Sectiomn -->
+      <section class="py-8 lg:py-24">
+        <div class="text-center">
+          <h1 class="text-3xl md:text-4xl font-bold mb-2">Our Products</h1>
+          <p class="text-gray-900 max-w-xl mx-auto">
+            Lorem, ipsum dolor sit amet consectetur adipisicing
+          </p>
+        </div>
+      </section>
+      <section>
+        <!-- cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+          <!-- products pic -->
+          <div class="rounded-lg shadow-md bg-slate-400 overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-1.png" alt="" />
+            <div class="p-4">
+              <h2 class="font-bold">Milk Teas</h2>
+              <p class="text-gray-800">Field with cream,Goodness of Milk</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-400 overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-2.png" alt="" />
+            <div class="p-4">
+              <h2 class="font-bold">black Teas</h2>
+              <p class="text-gray-800">Field with cream,Goodness of Milk</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-400 overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-3.png" alt="" />
+            <div class="p-4">
+              <h2 class="font-bold">white Teas</h2>
+              <p class="text-gray-800">Field with cream,Goodness of Milk</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-400 overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-4.png" alt="" />
+            <div class="p-4">
+              <h2 class="font-bold">Boba Teas</h2>
+              <p class="text-gray-800">Field with cream,Goodness of Milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- great section -->
+
+      <section class="mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <!-- image -->
+          <div class="grid grid-cols-2 grid-rows-3 gap-4">
+            <div
+              class="h-36 rounded-xl bg-linear-65 from-purple-500 to-pink-500"
+            ></div>
+            <div class="bg-orange-300 rounded-xl row-span-2">
+              <img
+                class="mx-auto"
+                src="./images/fresh-1.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="bg-orange-300 rounded-xl row-span-2">
+              <img
+                class="mx-auto"
+                src="./images/fresh-2.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+             <div
+              class="h-36 rounded-xl bg-linear-65 from-purple-500 to-pink-500"
+            ></div>
+          </div>
+          <!-- text -->
+          <div>
+            <h1 class="text-5xl font-bold mb-5">Great Tea, Freshly Made</h1>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              eos necessitatibus nisi itaque maxime quas laboriosam nulla
+              dignissimos, ab quod distinctio! Aspernatur accusantium modi
+              praesentium quasi laborum eaque harum beatae!
+            </p>
+            <br />
+            <h1 class="font-bold">Are You Ready</h1>
+            <br />
+            <p class="font-semibold">Thats made you something</p>
+          </div>
+        </div>
+        <!--  -->
+      </section>
     </main>
   </body>
 </html>
